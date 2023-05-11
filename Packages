@@ -1,0 +1,287 @@
+Package: libactivator
+Name: Activator
+Architecture: iphoneos-arm
+Version: 1.9.13~beta5
+Description: Centralized gestures, button and shortcut management for iOS
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./debs/libactivator_1.9.13_rc5_iphoneos-arm.deb
+Size: 924640
+MD5sum: 7e83ab221425a8cab3db91b418a9eb9d
+SHA1: 9001b5d972d3d6ba8c9979c66f3e663c998d436b
+SHA256: 34935cca8f1f3e95bd5b550386227d5ebc52940d5021f4386c05198dc2576250
+Depends: com.a3tweaks.flipswitch
+
+Package: com.a3tweaks.flipswitch
+Name: Flipswitch
+Architecture: iphoneos-arm
+Version: 1.0.16~beta5
+Description: Centralized toggle system for iOS
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_rc3_iphoneos-arm.deb
+Size: 301098
+MD5sum: 6aa1da6c359b385e715cc8a71aa64364
+SHA1: 23618f385d41c2624fc09a60e9f554f3f8faff24
+SHA256: a13a6928248a41a6b81b1faec9703f4e7af9aedcede5ef11dbd71dbd22fc58ec
+
+Package: com.rbt.useragentchanger
+Name: User Agent Changer
+Architecture: iphoneos-arm
+Version: 1.1.10
+Description: Change your Browser's User Agent.
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Author: ModMyi
+Section: Tweaks
+Filename: ./debs/com.rbt.useragentchanger_1.1.10_iphoneos-arm.deb
+Size: 53436
+MD5sum: cc29085d77d7a54902e273d059e136f4
+SHA1: 1565f739ac95bac2c853ae43d869b19098e5d986
+SHA256: 19772a47fca9829a32376a6f3bab9fb34da713ea4a42c06214977a964f31c4fd
+
+Package: com.ryleyangus.libertylite
+Name: Liberty Lite (Beta)
+Architecture: iphoneos-arm
+Version: 0.2.11
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported. 32-bit support is currently disabled.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./debs/LibertyLite0211.deb
+Size: 53542
+MD5sum: 4f1f62459646a035ad95a1bce4de055e
+SHA1: dce789b9e50a34ebcc729115c22cc14f5c70fa55
+SHA256: e00e1de832e275e46de2f82bbaaeb5cd96f85d148e82f89880daf9e7d087a205
+Depends: mobilesubstrate,firmware (>= 11.0)
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+
+Package: lsof
+Name: lsof
+Architecture: iphoneos-arm
+Version: 33-1
+Description: shows what files programs have open
+Maintainer: Bingner/Elucubratus
+Author: Bingner/Elucubratus
+Section: Administration
+Filename: ./debs/lsof_33-1_iphoneos-arm.deb
+Size: 42480
+MD5sum: a8c741bc977101f5f43d847d1f6ae193
+SHA1: 5a736bb0403eaaa6c949d239e5ccf55b1c400360
+SHA256: 5fe074dac1ffb5704426639d514f15f8091217571fe75875ad2f4c86299dc97c
+Depends: ncurses, cy+cpu.arm64
+
+Package: 12act
+Name: 12act
+Architecture: iphoneos-arm
+Version: 1.0
+Description: 12ac-t12act12act12act12act12act12act12act12act12act12act12act12act12act
+Maintainer: 12act 
+Author: 12act 
+Section: System
+Filename: ./debs/com.lynguyen.12act-uncover_1.0_iphoneos-arm.deb
+Size: 4376
+MD5sum: b5e800270a8083ee98d69e4e0e9904c0
+SHA1: 53f7499a4561d43f1d0e545f2d96de163c1f7392
+SHA256: 73fbba8cedaf3a9f413f686c3d403bf13098a7152fea5a584a409f77148d3b44
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist,cy+cpu.arm64,mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap (>= 1.0.6) | firmware (<< 7.0),libactivator,com.rbt.useragentchanger,com.rpetrich.rocketbootstrap, com.a3tweaks.flipswitch, preferenceloader, applist,openssh,applist,sudo,jetslammed,curl,network-cmds,lsof
+
+Package: 12ipa
+Name: 12ipa
+Architecture: iphoneos-arm
+Version: 1.1-1
+Description: 12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa12ipa
+Maintainer: 12ipa 
+Author: 12ipa 
+Section: Utilities
+Filename: ./debs/com.atl.ipa-sileo12_1.1-1_iphoneos-arm.deb
+Size: 59320
+MD5sum: a9770dca2370af15f03b812b8f91dc7e
+SHA1: 8cefa000880f4e5e4f1f7fdd47837febb27df3a5
+SHA256: afa1b6f77cf4c84f52550b14120de10cc72fabce6a2146866e1ec905aa88b393
+Pre-depends: mobilesubstrate,com.rpetrich.rocketbootstrap,openssh,applist,sudo,jetslammed,curl,network-cmds,firmware (>= 6.0), mobilesubstrate, preferenceloader, applist,cy+cpu.arm64,mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap (>= 1.0.6) | firmware (<< 7.0),firmware (>= 4.0), gsc.armv7
+
+Package: com.antran.AtlTeamhookios13
+Name: AtlTeamhookios13
+Architecture: iphoneos-arm
+Version: 1.0-1
+Description: Hook for appleid by lyxaben
+Maintainer: AtlTeamhookios13 
+Author: AtlTeamhookios13 
+Section: Tweaks
+Filename: ./debs/com.antran.AtlTeamhookios13_1.0-1_iphoneos-arm.deb
+Size: 21120
+MD5sum: e27e0b393493a529331b942f7e8b5ace
+SHA1: 59b42f281797886e4ced25d47a8935ce56d68046
+SHA256: 2ed888ea056356f445e7a9f57a24ae6cfbc1f6be030cd4702f22225f340c1ca3
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+
+
+Package: com.antran.AutoLeadHelper
+Name: AutoLeadHelper
+Architecture: iphoneos-arm
+Version: 1.0-2
+Description: AutoLeadHelper reg appleid by lyxaben
+Maintainer: AutoLeadHelper 
+Author: AutoLeadHelper 
+Section: Tweaks
+Filename: ./debs/com.antran.AutoLeadHelper_1.0-2_iphoneos-arm.deb
+Size: 345732
+MD5sum: 38d43ce8bb204a86504afa2d35d1c35b
+SHA1: 930f27caf8c0147455ea3aa8264c0c711efb4e3b
+SHA256: 2b61f44b8d651dea8d02aaf59815f4dc2cc7fed29df3d7c0749f29af1cd4f22e
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.antran.AutoLeadHelper
+Name: AutoLeadHelper
+Architecture: iphoneos-arm
+Version: 1.0-3
+Description: AutoLeadHelper reg appleid by lyxaben
+Maintainer: AutoLeadHelper 
+Author: AutoLeadHelper 
+Section: Tweaks
+Filename: ./debs/com.antran.AutoLeadHelper_1.0-3_iphoneos-arm.deb
+Size: 346428
+MD5sum: c400e1d10a0e8068e208d0f1de47af97
+SHA1: f5744f651c0ac87fcd1844fccaa2b03212d5fb97
+SHA256: bbab2226ad343ed1df697870e61a51b003db1a97bf011d6cb2eb6ed27a0500f0
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.antran.AutoLeadHelper
+Name: AutoLeadHelper
+Architecture: iphoneos-arm
+Version: 1.0-5
+Description: AutoLeadHelper reg appleid by lyxaben
+Maintainer: AutoLeadHelper 
+Author: AutoLeadHelper 
+Section: Tweaks
+Filename: ./debs/com.antran.AutoLeadHelper_1.0-5_iphoneos-arm.deb
+Size: 344712
+MD5sum: 545fdc3a9ad0fa3106ced2af9f52d3a0
+SHA1: 1bb44df6798b5db6415b28c83f845bf41e4e4ae0
+SHA256: e431f2caaca8aba2581514e87428e4f570f2833355cf7c273f973f41c2b080e8
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.nguyentrungkien.AtlTeamhookFull
+Name: AtlTeamhookFull
+Architecture: iphoneos-arm
+Version: 1.0-160
+Description: Hook  by lyxaben for appleid
+Maintainer: AtlTeamhookFull 
+Author: AtlTeamhookFull 
+Section: Tweaks
+Filename: ./debs/com.nguyentrungkien.AtlTeamhook_1.0-160_iphoneos-arm.deb
+Size: 24088
+MD5sum: be7ac83fe1ec0b3366165fea13733c17
+SHA1: 60b5802e204e360e42e58f5b83425b318191ecb7
+SHA256: 8d9ed75c0a6aa1d5ffa5829fccfdadceb14c508a9e910e116e1b7fc0b53a065e
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+
+
+Package: com.nguyentrungkien.AtlTeamhookNormal
+Name: AtlTeamhookNormal
+Architecture: iphoneos-arm
+Version: 1.0-163
+Description: Hook  by lyxaben for appleid
+Maintainer: AtlTeamhookNormal 
+Author: AtlTeamhookNormal 
+Section: Tweaks
+Filename: ./debs/com.nguyentrungkien.AtlTeamhook_1.0-163_iphoneos-arm.deb
+Size: 10456
+MD5sum: d6c17a6abb4716fb415310f4cf75ea16
+SHA1: d6179e2622581224d8b585a84934828ce9e826b1
+SHA256: fcbdaedaaabb4ed16dbae42f61504907d8cd54dbe0f408b69665d0f5c85deedb
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AutoLeadHelperYTB
+Name: AutoLeadHelperYTB
+Architecture: iphoneos-arm
+Version: 1.0-52
+Description: AutoLeadHelperYTB for YTB by lyxaben
+Maintainer: AutoLeadHelperYTB 
+Author: AutoLeadHelperYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AutoLeadHelperYTB_1.0-52_iphoneos-arm.deb
+Size: 349500
+MD5sum: 189fb13b9fc9a62949588cff7fa3adc8
+SHA1: 2d132e2db5f28aa718a18f4cd702919f2720faf5
+SHA256: f4a0f0d8be175b828b66ebcd8c05c5aa2461040c28ca8b5530439381d53a00d4
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+
+Package: com.lyxaben.AutoLeadHelperYTB
+Name: AutoLeadHelperYTB
+Architecture: iphoneos-arm
+Version: 1.0-59
+Description: AutoLeadHelperYTB for YTB by lyxaben
+Maintainer: AutoLeadHelperYTB 
+Author: AutoLeadHelperYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AutoLeadHelperYTB_1.0-59_iphoneos-arm.deb
+Size: 350636
+MD5sum: cc8ae8004aa2ebdd0800684ff4f5cfa4
+SHA1: d9621e8ed84bcfe5e4a6ec3281cb6116e9f31e92
+SHA256: f850daaf6b62ba0f98dfbb329d67eac9886fdbe5603e16e20747fe23bf70c15a
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AutoLeadHelperYTB
+Name: AutoLeadHelperYTB
+Architecture: iphoneos-arm
+Version: 1.0-148
+Description: AutoLeadHelperYTB for YTB by lyxaben
+Maintainer: AutoLeadHelperYTB 
+Author: AutoLeadHelperYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AutoLeadHelperYTB_1.0-148_iphoneos-arm.deb
+Size: 371140
+MD5sum: d8291ef25fa2735536cbf6c8960af3a7
+SHA1: 5beac44ff942ebc15caf26b074ef6a9068168d50
+SHA256: 9e9028836b940ef970a95c51faa51ca4ec113a26458877b1fafda57fadebe543
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AutoLeadHelperYTB
+Name: AutoLeadHelperYTB
+Architecture: iphoneos-arm
+Version: 1.0-210
+Description: AutoLeadHelperYTB for YTB by lyxaben
+Maintainer: AutoLeadHelperYTB 
+Author: AutoLeadHelperYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AutoLeadHelperYTB_1.0-210_iphoneos-arm.deb
+Size: 369280
+MD5sum: 054c1ec35b495c75f17b1acb5c53d348
+SHA1: 67cb06b544e4c216e1ae41659cedd9fdb948c9c2
+SHA256: b2f362a0ae01c67214c6d605611b9565fe61cf4d73010e604f0058ef82160e93
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AtlTeamhookYTB
+Name: AtlTeamhookYTB
+Architecture: iphoneos-arm
+Version: 1.0-4
+Description: AtlTeamhookYTB for YTB by lyxaben
+Maintainer: AtlTeamhookYTB 
+Author: AtlTeamhookYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AtlTeamhookYTB_1.0-4_iphoneos-arm.deb
+Size: 21188
+MD5sum: 202b8dc8b806c2681fabd277c311b860
+SHA1: a364b6b20b5ef92482ffd3c3b6e467c8aaa03774
+SHA256: 1d89629971de99249a0993518afd01f1aa28945d6ee1b80cd0668bf228e1d319
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+
+Package: com.lyxaben.AtlTeamhookYTB
+Name: AtlTeamhookYTB
+Architecture: iphoneos-arm
+Version: 1.0-14
+Description: AtlTeamhookYTB for YTB by lyxaben
+Maintainer: AtlTeamhookYTB 
+Author: AtlTeamhookYTB 
+Section: Tweaks
+Filename: ./debs/com.lyxaben.AtlTeamhookYTB_1.0-14_iphoneos-arm.deb
+Size: 21416
+MD5sum: b856ddf6e9ec0f48f15a627b4f9f6ff8
+SHA1: 93bd162eff2d92de86f9336cd553a0951a773210
+SHA256: 0e3f4581676f4ece0a478d193b4f1e73ee2c6b9fa56235614ee1cb45857499a6
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
